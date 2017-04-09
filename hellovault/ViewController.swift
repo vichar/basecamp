@@ -20,15 +20,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
         if let user = FIRAuth.auth()?.currentUser{
-            print(user.providerID)
             if (user.isAnonymous){
                 self.logoutUIButton.alpha = 0.0
                 self.usernameUILabel.text = "Hi!"
             }
             else{
                 self.logoutUIButton.alpha = 1.0
-                self.usernameUILabel.text = "Hi! /\(user.email!)/"
-                self.firebase.child("users/\(user.uid)/userID").setValue(user.uid)
+                self.usernameUILabel.text = "Hi! \(user.email!)"
             }
 
         }
