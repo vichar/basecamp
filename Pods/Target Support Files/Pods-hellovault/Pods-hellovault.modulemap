@@ -1,0 +1,6 @@
+framework module Pods_hellovault {
+  umbrella header "Pods-hellovault-umbrella.h"
+
+  export *
+  module * { export * }
+}

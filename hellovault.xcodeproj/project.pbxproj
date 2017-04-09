@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2839329142D509CE370426B4 /* Pods_hellovaultUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD602AA21E2B4F7BCA978892 /* Pods_hellovaultUITests.framework */; };
 		9A2B372F1E98EDBB00AB0B4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B372E1E98EDBB00AB0B4C /* AppDelegate.swift */; };
 		9A2B37311E98EDBB00AB0B4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B37301E98EDBB00AB0B4C /* ViewController.swift */; };
 		9A2B37341E98EDBB00AB0B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2B37321E98EDBB00AB0B4C /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		9A2B373C1E98EDBB00AB0B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2B373A1E98EDBB00AB0B4C /* LaunchScreen.storyboard */; };
 		9A2B37471E98EDBB00AB0B4C /* hellovaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B37461E98EDBB00AB0B4C /* hellovaultTests.swift */; };
 		9A2B37521E98EDBB00AB0B4C /* hellovaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B37511E98EDBB00AB0B4C /* hellovaultUITests.swift */; };
+		9A5D550A1E98F06B0015F417 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5D55091E98F06B0015F417 /* GoogleService-Info.plist */; };
+		9A6598961E993FEC003E45F8 /* UIControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6598951E993FEC003E45F8 /* UIControllerExtension.swift */; };
+		A354A50CF987C1C17C4FF273 /* Pods_hellovaultTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C4484DEB58EC88B7C3E819 /* Pods_hellovaultTests.framework */; };
+		D72BD9C5C5C346FD9D89FA9D /* Pods_hellovault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17803284BAD88AA234DB62B7 /* Pods_hellovault.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0023CDF10C8C85F222E26323 /* Pods-hellovaultUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovaultUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hellovaultUITests/Pods-hellovaultUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17803284BAD88AA234DB62B7 /* Pods_hellovault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hellovault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31221F67741700BB74FD4A8F /* Pods-hellovaultTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovaultTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hellovaultTests/Pods-hellovaultTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F3588487A0382C880609781 /* Pods-hellovaultUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovaultUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hellovaultUITests/Pods-hellovaultUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41925C66DEC7AAA6B8607FBC /* Pods-hellovault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovault.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hellovault/Pods-hellovault.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA53ED509DC04E989F539E7 /* Pods-hellovault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovault.release.xcconfig"; path = "Pods/Target Support Files/Pods-hellovault/Pods-hellovault.release.xcconfig"; sourceTree = "<group>"; };
+		86C4484DEB58EC88B7C3E819 /* Pods_hellovaultTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hellovaultTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2B372B1E98EDBB00AB0B4C /* hellovault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellovault.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2B372E1E98EDBB00AB0B4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A2B37301E98EDBB00AB0B4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		9A2B374D1E98EDBB00AB0B4C /* hellovaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellovaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2B37511E98EDBB00AB0B4C /* hellovaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hellovaultUITests.swift; sourceTree = "<group>"; };
 		9A2B37531E98EDBB00AB0B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A5D55091E98F06B0015F417 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A6598951E993FEC003E45F8 /* UIControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControllerExtension.swift; sourceTree = "<group>"; };
+		B42FC6404B5C52C1DF7D407C /* Pods-hellovaultTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hellovaultTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hellovaultTests/Pods-hellovaultTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD602AA21E2B4F7BCA978892 /* Pods_hellovaultUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hellovaultUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72BD9C5C5C346FD9D89FA9D /* Pods_hellovault.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A354A50CF987C1C17C4FF273 /* Pods_hellovaultTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2839329142D509CE370426B4 /* Pods_hellovaultUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327293A8D5ACC081811580AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41925C66DEC7AAA6B8607FBC /* Pods-hellovault.debug.xcconfig */,
+				5FA53ED509DC04E989F539E7 /* Pods-hellovault.release.xcconfig */,
+				B42FC6404B5C52C1DF7D407C /* Pods-hellovaultTests.debug.xcconfig */,
+				31221F67741700BB74FD4A8F /* Pods-hellovaultTests.release.xcconfig */,
+				3F3588487A0382C880609781 /* Pods-hellovaultUITests.debug.xcconfig */,
+				0023CDF10C8C85F222E26323 /* Pods-hellovaultUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C2F32075B4277ECFBDEC809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17803284BAD88AA234DB62B7 /* Pods_hellovault.framework */,
+				86C4484DEB58EC88B7C3E819 /* Pods_hellovaultTests.framework */,
+				DD602AA21E2B4F7BCA978892 /* Pods_hellovaultUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A2B37221E98EDBB00AB0B4C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				9A2B37451E98EDBB00AB0B4C /* hellovaultTests */,
 				9A2B37501E98EDBB00AB0B4C /* hellovaultUITests */,
 				9A2B372C1E98EDBB00AB0B4C /* Products */,
+				327293A8D5ACC081811580AE /* Pods */,
+				5C2F32075B4277ECFBDEC809 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +143,7 @@
 		9A2B372D1E98EDBB00AB0B4C /* hellovault */ = {
 			isa = PBXGroup;
 			children = (
+				9A5D55091E98F06B0015F417 /* GoogleService-Info.plist */,
 				9A2B372E1E98EDBB00AB0B4C /* AppDelegate.swift */,
 				9A2B37301E98EDBB00AB0B4C /* ViewController.swift */,
 				9A2B37321E98EDBB00AB0B4C /* Main.storyboard */,
@@ -106,6 +151,7 @@
 				9A2B373A1E98EDBB00AB0B4C /* LaunchScreen.storyboard */,
 				9A2B373D1E98EDBB00AB0B4C /* Info.plist */,
 				9A2B37351E98EDBB00AB0B4C /* hellovault.xcdatamodeld */,
+				9A6598951E993FEC003E45F8 /* UIControllerExtension.swift */,
 			);
 			path = hellovault;
 			sourceTree = "<group>";
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2B37561E98EDBB00AB0B4C /* Build configuration list for PBXNativeTarget "hellovault" */;
 			buildPhases = (
+				7B5E9C52AFB360FB2F1255E6 /* [CP] Check Pods Manifest.lock */,
 				9A2B37271E98EDBB00AB0B4C /* Sources */,
 				9A2B37281E98EDBB00AB0B4C /* Frameworks */,
 				9A2B37291E98EDBB00AB0B4C /* Resources */,
+				777BF5F53CDFCE7493FE2CD5 /* [CP] Embed Pods Frameworks */,
+				B226B539595082D00079A54A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2B37591E98EDBB00AB0B4C /* Build configuration list for PBXNativeTarget "hellovaultTests" */;
 			buildPhases = (
+				7F1A5B97032298AD2B6BE66D /* [CP] Check Pods Manifest.lock */,
 				9A2B373E1E98EDBB00AB0B4C /* Sources */,
 				9A2B373F1E98EDBB00AB0B4C /* Frameworks */,
 				9A2B37401E98EDBB00AB0B4C /* Resources */,
+				A14B091533954EB94613927F /* [CP] Embed Pods Frameworks */,
+				D7E3F680EAF80675FB795854 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A2B375C1E98EDBB00AB0B4C /* Build configuration list for PBXNativeTarget "hellovaultUITests" */;
 			buildPhases = (
+				7DCEFB65679D51EEE327F90F /* [CP] Check Pods Manifest.lock */,
 				9A2B37491E98EDBB00AB0B4C /* Sources */,
 				9A2B374A1E98EDBB00AB0B4C /* Frameworks */,
 				9A2B374B1E98EDBB00AB0B4C /* Resources */,
+				1CF7E65D11D339611DC400F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2B373C1E98EDBB00AB0B4C /* LaunchScreen.storyboard in Resources */,
+				9A5D550A1E98F06B0015F417 /* GoogleService-Info.plist in Resources */,
 				9A2B37391E98EDBB00AB0B4C /* Assets.xcassets in Resources */,
 				9A2B37341E98EDBB00AB0B4C /* Main.storyboard in Resources */,
 			);
@@ -260,12 +315,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CF7E65D11D339611DC400F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hellovaultUITests/Pods-hellovaultUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		777BF5F53CDFCE7493FE2CD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hellovault/Pods-hellovault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B5E9C52AFB360FB2F1255E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DCEFB65679D51EEE327F90F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1A5B97032298AD2B6BE66D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A14B091533954EB94613927F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hellovaultTests/Pods-hellovaultTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B226B539595082D00079A54A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hellovault/Pods-hellovault-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7E3F680EAF80675FB795854 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hellovaultTests/Pods-hellovaultTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A2B37271E98EDBB00AB0B4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A2B37371E98EDBB00AB0B4C /* hellovault.xcdatamodeld in Sources */,
+				9A6598961E993FEC003E45F8 /* UIControllerExtension.swift in Sources */,
 				9A2B37311E98EDBB00AB0B4C /* ViewController.swift in Sources */,
 				9A2B372F1E98EDBB00AB0B4C /* AppDelegate.swift in Sources */,
 			);
@@ -417,10 +596,12 @@
 		};
 		9A2B37571E98EDBB00AB0B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41925C66DEC7AAA6B8607FBC /* Pods-hellovault.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 987EBP9242;
 				INFOPLIST_FILE = hellovault/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scot.vichar.hellovault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +611,12 @@
 		};
 		9A2B37581E98EDBB00AB0B4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA53ED509DC04E989F539E7 /* Pods-hellovault.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 987EBP9242;
 				INFOPLIST_FILE = hellovault/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = scot.vichar.hellovault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +626,7 @@
 		};
 		9A2B375A1E98EDBB00AB0B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42FC6404B5C52C1DF7D407C /* Pods-hellovaultTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +642,7 @@
 		};
 		9A2B375B1E98EDBB00AB0B4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31221F67741700BB74FD4A8F /* Pods-hellovaultTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +658,7 @@
 		};
 		9A2B375D1E98EDBB00AB0B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3588487A0382C880609781 /* Pods-hellovaultUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 987EBP9242;
@@ -487,6 +673,7 @@
 		};
 		9A2B375E1E98EDBB00AB0B4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0023CDF10C8C85F222E26323 /* Pods-hellovaultUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 987EBP9242;
@@ -518,6 +705,7 @@
 				9A2B37581E98EDBB00AB0B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2B37591E98EDBB00AB0B4C /* Build configuration list for PBXNativeTarget "hellovaultTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +714,7 @@
 				9A2B375B1E98EDBB00AB0B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A2B375C1E98EDBB00AB0B4C /* Build configuration list for PBXNativeTarget "hellovaultUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +723,7 @@
 				9A2B375E1E98EDBB00AB0B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
